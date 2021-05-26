@@ -1,0 +1,21 @@
+{
+  "name": "local-auth-register",
+  "version": "1.0.0",
+  "description": "Passport Local Strategy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon index.js"
+  },
+  "author": "Tyler",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.11",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
